@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Drag The Color</title>
+</head>
+<body>
+   <div class="container border-2 border-black w-1/2 mx-auto mt-10">
+       <p class="text-center text-3xl font-bold tracking-wide mt-5">Drag and Drop Test</p>
+       <div class="grid grid-cols-3 gap-8 m-14 wrapper">
+       <div class="border-2 border-black flex flex-col gap-6 justify-center items-center py-5 box">
+           <div id="task1" class="box-border h-20 w-20 p-12 border bg-lime-700 task" draggable="true"></div>
+           <div id="task2" class="box-border h-20 w-20 p-12 border bg-orange-500 task" draggable="true"></div>
+           <div id="task3" class="box-border h-20 w-20 p-12 border bg-fuchsia-800 task" draggable="true"></div>
+       </div>
+       <div class="border-2 border-black flex flex-col gap-6 justify-center items-center py-5 box">
+           <div id="task4" class="box-border h-20 w-20 p-12 border bg-cyan-200 task" draggable="true"></div>
+           <div id="task5" class="box-border h-20 w-20 p-12 border bg-lime-700 task" draggable="true"></div>
+           <div id="task6" class="box-border h-20 w-20 p-12 border bg-orange-500 task" draggable="true"></div>
+       </div>
+       <div class="border-2 border-black flex flex-col gap-6 justify-center items-center py-5 box">
+           <div id="task7" class="box-border h-20 w-20 p-12 border bg-fuchsia-800 task" draggable="true"></div>
+           <div id="task8" class="box-border h-20 w-20 p-12 border bg-yellow-500 task" draggable="true"></div>
+           <div id="task9" class="box-border h-20 w-20 p-12 border bg-pink-400 task" draggable="true"></div>
+       </div> 
+    </div>
+   </div>
+
+
+   <script src="script.js">
+</script>
+</body>
+</html>
