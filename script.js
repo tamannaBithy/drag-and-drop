@@ -1,5 +1,5 @@
 var dropTarget = document.querySelector(".wrapper");
-var draggables = document.querySelectorAll(".task");
+var draggables = document.querySelectorAll(".color");
 
 for (let i = 0; i < draggables.length; i++) {
   draggables[i].addEventListener("dragstart", function (ev) {
